@@ -9,6 +9,7 @@ function heldKarp(cities, start){
   return "Path is more than 3 cities";
 }
 
+// Distance Matrix that Lars will use
 var city1 = [
   [0, 1, 2],
   [1, 0, 2],
