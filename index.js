@@ -12,7 +12,7 @@ function getMinDistance(endVertex, subset, matrix) {
 
 function heldKarp(cities, start) {
   var shortestDistance = 0;
-  if (cities.length == 1 || cities.length == 0) {
+  if (cities.length <= 1) {
     console.log("Invalid list of cities, modify and then try again.");
     return 0;
   }
@@ -46,4 +46,4 @@ var city2 = [
   [10, 4, 8, 0]
 ];
 
-console.log(heldKarp(city1, 10));
+console.log(heldKarp(city1, 0));
