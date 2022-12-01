@@ -1,6 +1,13 @@
 /*
 Author: Zachary Crimmel
 Date: Dec 1, 2022
+
+Implementation of the Held-Karp Algorithm to solve the travelling salesman problem.
+There is both the original version and a dynamic version of the program.
+
+Sources:
+- https://www.youtube.com/watch?v=-JjA4BLQyqE
+- https://github.com/mission-peace/interview/blob/master/src/com/interview/graph/TravelingSalesmanHeldKarp.java 
 */
 
 function getMinDistance(endVertex, subset, matrix) {
@@ -20,10 +27,8 @@ function heldKarp(cities, start) {
     return cities[0][1];
   }
   else {
-    var min = 10000;
-    for (var i = 0; i < cities.length; i++) {
-
-    }
+    // return the minimum of 
+    // 
   }
 }
 
